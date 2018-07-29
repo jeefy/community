@@ -2,10 +2,11 @@
 publish = "_tmp/public"
 command = "hack/generate-kcommunity-site.sh"
 
-[context.production.environment]
+[build.environment]
 HUGO_VERSION = "0.45.1"
+
+[context.production.environment]
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
 command = "hack/generate-kcommunity-site.sh -b $DEPLOY_PRIME_URL"
@@ -14,8 +15,4 @@ command = "hack/generate-kcommunity-site.sh -b $DEPLOY_PRIME_URL"
 command = "hack/generate-kcommunity-site.sh -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.45.1"
-
-[context.master]
-publish = "_tmp/public"
-command = "hack/generate-kcommunity-site.sh"
+command = "hack/generate-kcommunity-site.sh -b $DEPLOY_PRIME_URL"
