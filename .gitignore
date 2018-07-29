@@ -37,3 +37,6 @@ Session.vim
 
 # direnv .envrc files
 .envrc
+
+# Temp directory used for generate hugo site
+/_tmp/
