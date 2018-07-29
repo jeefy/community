@@ -9,4 +9,4 @@ export HUGO_BUILD
 
 mkdir -p "$KCOMMUNITY_ROOT/_tmp/public"
 git clone "$KCOMMUNITY_SITE_REPO" "$KCOMMUNITY_SITE_ROOT" --recurse-submodules
-exec "$KCOMMUNITY_SITE_ROOT/gen-site.sh" "$@"
+exec "$KCOMMUNITY_SITE_ROOT/gen-site.sh" --destination "$KCOMMUNITY_ROOT/_tmp/public" "$@"
