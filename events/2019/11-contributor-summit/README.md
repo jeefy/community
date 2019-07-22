@@ -34,14 +34,15 @@ During [KubeCon/CloudNativeCon](https://events.linuxfoundation.org/events/kubeco
 
 | Role | Lead | Shadow | Notes |
 |---|---|---|---|
-| Event Lead | Paris | Jeff | |
-| Project Manager | Jamie | himanshu | |
-| Registration | Bob | Nabarun | |
-| Marketing | Jonas | nzoueidi | |
+| Event Lead | Paris @parispittman | Jeff @jeefy | |
+| Project Manager | Jamie @JamieRachel | himanshu @hpandeycodeit | |
+| Registration | Bob @mrbobbytables | Nabarun @palnabarun | |
+| Marketing | Jonas @jonasrosland | nzoueidi @nzoueidi | |
 | CNCF Events Manager | Deb Giles | N/A | CNCF/LF Employee |
-| Overall Content | Josh | Yang | Additional roles TBD |
-| New Contributor Workshop | Guin | Rael and/or Allison | Dawn Foster to organize SIG Meet and Greet |
-| Accessibility, Inclusiveness, and Diversity | Tasha | Arnaud | |
+| Overall Content | Josh @jberkus | Yang @idealhack | Additional roles TBD |
+| Unconference | Marky @markyjackson-taulia | | |
+| New Contributor Workshop | Guin @guineveresaenger | Allison @alisondy<br />Rael @raelga | Dawn Foster @geekygirldawn to organize SIG Meet and Greet |
+| Accessibility, Inclusiveness, and Diversity | Tasha @tashimi | Arnaud @arnaudmz | |
 
 ## Code of Conduct
 
